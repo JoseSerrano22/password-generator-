@@ -29,8 +29,6 @@ while count<nr_numbers:
   listPassword.append(numbers[random.randint(0,len(numbers)-1)])
   count+=1
 
-count = 0
-
 random.shuffle(listPassword)
 
 for n in range(0,len(listPassword)):
